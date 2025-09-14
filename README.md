@@ -19,22 +19,22 @@ This dashboard allows you to:
 
 ##  Key Features
 
- **Executive KPI Summary**  
+ **Executive KPI Summary**: 
 High-level overview of Total Revenue, Ad Spend, Marketing Efficiency Ratio (MER), and Customer Acquisition Cost (CAC).
 
- **Interactive Filters**  
+ **Interactive Filters**: 
 Slice data by **date range**, **marketing platform**, **state**, and **advertising tactic**.
 
- **Dynamic Insights & Recommendations**  
+ **Dynamic Insights & Recommendations**: 
 An automated insights engine highlights **top performers**, **hidden opportunities**, and **campaigns to review**.
 
- **Performance Trend Analysis**  
+ **Performance Trend Analysis**: 
 Time-series charts visualize trends in **revenue** and **gross profit**.
 
- **Channel & Tactic Breakdown**  
+ **Channel & Tactic Breakdown**:  
 Side-by-side comparisons of **ROAS** for each marketing platform and tactic.
 
- **Granular Deep Dives**  
+ **Granular Deep Dives**:  
 State-level and campaign-level performance, including an **efficiency scatter plot** (Spend vs ROAS) to identify outliers.
 
 ---
@@ -63,16 +63,16 @@ This project uses **four datasets** capturing 120 days of daily activity:
 
 ---
 
-## 🛠️ Setup & Installation
+##  Setup & Installation
 
 Follow these steps to run the dashboard locally:
 
-### 1️ Clone the Repository
+### 1️. Clone the Repository
 ```bash
 git clone https://github.com/your-username/your-repository-name.git
 cd your-repository-name
 ```
-### 2 Install Dependencies
+### 2. Install Dependencies
 
 Make sure you have a requirements.txt file with:
 
@@ -85,7 +85,7 @@ Then install:
 ```bash
 pip install -r requirements.txt
 ```
-### 3 Organize Data
+### 3. Organize Data
 
 Create a data folder in the root directory and place the four CSV files inside:
 
@@ -97,12 +97,13 @@ TikTok.csv
 
 business.csv
 
-### 4 Run the App
+### 4. Run the App
 ```bash
 streamlit run app.py
 ```
 The dashboard will open automatically in your browser.
 
+---
 ### Insights & Decision-Making
 
 This dashboard helps stakeholders:

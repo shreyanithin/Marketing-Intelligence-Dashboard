@@ -17,7 +17,7 @@ def load_data():
     facebook = pd.read_csv('data/Facebook.csv')
     google = pd.read_csv('data/Google.csv')
     tiktok = pd.read_csv('data/TikTok.csv')
-    business = pd.read_csv('data/Business.csv')
+    business = pd.read_csv('data/business.csv')
 
     # STANDARDIZE ALL COLUMNS AT THE START
     for df_marketing in [facebook, google, tiktok]:

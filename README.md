@@ -104,7 +104,7 @@ streamlit run app.py
 The dashboard will open automatically in your browser.
 
 ---
-### Insights & Decision-Making
+## Insights & Decision-Making
 
 This dashboard helps stakeholders:
 
@@ -117,7 +117,7 @@ Compare channels and tactics to allocate budgets more efficiently.
 Track customer growth alongside marketing activity.
 
 ---
-### Deployed Link
+## Deployed Link
 ```bash
 https://ad-performance-dashboard.streamlit.app/
 ```
